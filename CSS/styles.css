@@ -1,13 +1,51 @@
+/* Global styles
+-----------------------------------*/
+
+body {
+    color: #343434;
+}
+
+/* Home Page
+-----------------------------------*/
+
+.brief-description{
+    text-align: center;
+    white-space: pre-wrap;
+}
+
 #profilePicture{
     width: 400px;
     height: 800px;
 }
 
-#mainPageImage{
-    width: 100%;
-    height: 400px;
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
-.nav-link:hover {
-    background-color: gray;
+.image-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.main-page-image{
+    width: 100%;
+    height: 800px;
+}
+
+#homePageTitle{
+    text-align: center;
+}
+
+/* About Me
+-----------------------------------*/
+.work-experience{
+    text-align: center;
+}
+
+
+/* Projects
+-----------------------------------*/
